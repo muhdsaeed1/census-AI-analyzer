@@ -128,6 +128,21 @@ Diffs, which show the changes between two versions of a file, are a great way to
 *   **Understand the context of a change:** I can use the diff to understand why a change was made and what the author's intention was.
 *   **Identify potential issues:** I can analyze the diff and identify potential issues, such as bugs or performance regressions.
 
+## Development Methodology
+
+This project follows an **Agile development methodology**, specifically incorporating the **ADIE (Analysis, Design, Implementation, Evaluation) model**. This approach is particularly effective for this project for the following reasons:
+
+*   **Flexibility and Iteration:** The ADIE model is a cyclical process, which allows for continuous improvement and adaptation. This is ideal for a project like this, where new features and requirements may arise as the project evolves.
+*   **Rapid Prototyping:** The ADIE model encourages rapid prototyping and feedback. We can quickly move from an idea to a working implementation, and then evaluate it to see if it meets the project's goals.
+*   **Focus on User Feedback:** The evaluation phase of the ADIE model is crucial for gathering user feedback. This feedback can then be used to inform the next cycle of development, ensuring that the project is always moving in the right direction.
+
+Here's how the ADIE model is applied to this project:
+
+1.  **Analysis:** In this phase, we analyze the project's requirements and define the goals for the current development cycle. This could involve analyzing user feedback, identifying new feature ideas, or defining the scope of a new API endpoint.
+2.  **Design:** In this phase, we design the new feature or improvement. This could involve creating wireframes for a new UI component, designing the schema for a new database table, or defining the architecture of a new microservice.
+3.  **Implementation:** In this phase, we implement the new feature or improvement. This involves writing the code, creating the necessary infrastructure, and deploying the changes to a staging environment.
+4.  **Evaluation:** In this phase, we evaluate the new feature or improvement to see if it meets the project's goals. This could involve user testing, performance testing, or A/B testing. The feedback from this phase is then used to inform the next development cycle.
+
 ## License
 
 MIT License - see LICENSE file for details.
