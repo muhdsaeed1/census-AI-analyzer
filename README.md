@@ -100,33 +100,7 @@ NODE_ENV=production npm start
 - **Logging**: Morgan
 - **Export**: XLSX, CSV Writer
 
-## AI-Assisted Development
 
-As a large language model, I can assist in the development of this project in several ways. Here's how I can leverage different sources of information to improve the development workflow:
-
-### API Specs
-
-The API specification, which can be found in the `/api/docs` endpoint and in the `server.js` file, is a valuable source of information. I can use it to:
-
-*   **Generate client-side code:** I can automatically generate TypeScript or JavaScript code for the frontend to interact with the API, including request and response types.
-*   **Create API documentation:** I can generate or update the API documentation in various formats (e.g., OpenAPI, Swagger) based on the API specs.
-*   **Generate API tests:** I can generate tests for the API endpoints to ensure they are working as expected.
-
-### File Trees
-
-The file tree of the project provides a high-level overview of the project structure. I can use it to:
-
-*   **Understand the project structure:** I can quickly understand the project's architecture and how the different parts are organized.
-*   **Identify relevant files:** When I need to make changes to the code, I can use the file tree to quickly identify the relevant files.
-*   **Suggest refactoring:** I can analyze the file tree and suggest improvements to the project structure.
-
-### Diffs
-
-Diffs, which show the changes between two versions of a file, are a great way to understand the evolution of the code. I can use them to:
-
-*   **Review code changes:** I can review code changes and provide feedback on the implementation.
-*   **Understand the context of a change:** I can use the diff to understand why a change was made and what the author's intention was.
-*   **Identify potential issues:** I can analyze the diff and identify potential issues, such as bugs or performance regressions.
 
 ## Development Methodology
 
@@ -143,6 +117,4 @@ Here's how the ADIE model is applied to this project:
 3.  **Implementation:** In this phase, we implement the new feature or improvement. This involves writing the code, creating the necessary infrastructure, and deploying the changes to a staging environment.
 4.  **Evaluation:** In this phase, we evaluate the new feature or improvement to see if it meets the project's goals. This could involve user testing, performance testing, or A/B testing. The feedback from this phase is then used to inform the next development cycle.
 
-## License
 
-MIT License - see LICENSE file for details.
