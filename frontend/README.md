@@ -1,4 +1,4 @@
-# Census Analytics Dashboard - Frontend
+# census-AI-analyzer - Frontend
 
 Interactive React dashboard for visualizing US Hispanic Census demographics with AI-powered insights.
 

@@ -1,6 +1,6 @@
-# 🚀 Deployment Guide - Census Analytics Dashboard
+# 🚀 Deployment Guide - census-AI-analyzer
 
-Complete guide to deploy your full-stack Census Analytics Dashboard to the cloud.
+Complete guide to deploy your full-stack census-AI-analyzer to the cloud.
 
 ## Overview
 
@@ -20,11 +20,11 @@ Complete guide to deploy your full-stack Census Analytics Dashboard to the cloud
    # Initialize git in the main project directory
    git init
    git add .
-   git commit -m "Initial commit - Census Analytics Dashboard"
+   git commit -m "Initial commit - census-AI-analyzer"
    
    # Create GitHub repository and push
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/census-analyzer.git
+   git remote add origin https://github.com/YOUR_USERNAME/census-AI-analyzer.git
    git push -u origin main
    ```
 
@@ -35,7 +35,7 @@ Complete guide to deploy your full-stack Census Analytics Dashboard to the cloud
 3. **Create New Project**:
    - Click "New Project"
    - Select "Deploy from GitHub repo"
-   - Choose your `census-analyzer` repository
+   - Choose your `census-AI-analyzer` repository
    - Select the **root directory** (not the frontend folder)
 
 4. **Configure Environment Variables**:
@@ -210,7 +210,7 @@ curl https://your-api.railway.app/api/docs
 
 ## 🎉 Success!
 
-Your Census Analytics Dashboard is now live:
+Your census-AI-analyzer is now live:
 
 - **API**: `https://your-app.railway.app`
 - **Dashboard**: `https://your-app.vercel.app`

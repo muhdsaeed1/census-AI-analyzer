@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Census Analytics Dashboard - Deployment Setup Script
+# census-AI-analyzer - Deployment Setup Script
 # This script helps prepare your project for cloud deployment
 
-echo "🚀 Setting up Census Analytics Dashboard for deployment..."
+echo "🚀 Setting up census-AI-analyzer for deployment..."
 echo ""
 
 # Check if we're in the right directory
 if [ ! -f "server.js" ]; then
-    echo "❌ Error: Run this script from the census-analyzer root directory"
+    echo "❌ Error: Run this script from the census-AI-analyzer root directory"
     exit 1
 fi
 
@@ -126,8 +126,8 @@ echo "   cd frontend && npm run dev (in another terminal)"
 echo ""
 echo "3. Push to GitHub:"
 echo "   git add ."
-echo "   git commit -m 'Initial commit - Census Analytics Dashboard'"
-echo "   git remote add origin https://github.com/YOUR_USERNAME/census-analyzer.git"
+echo "   git commit -m 'Initial commit - census-AI-analyzer'"
+echo "   git remote add origin https://github.com/YOUR_USERNAME/census-AI-analyzer.git"
 echo "   git push -u origin main"
 echo ""
 echo "4. Follow the deployment guide:"

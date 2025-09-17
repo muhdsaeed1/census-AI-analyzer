@@ -1,4 +1,4 @@
-# 📊 Census Analytics Dashboard
+# 📊 census-AI-analyzer
 
 Full-stack web application for analyzing US Hispanic demographic data with AI-powered insights.
 
@@ -33,8 +33,8 @@ Full-stack web application for analyzing US Hispanic demographic data with AI-po
 
 1. **Clone and install**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/census-analyzer.git
-   cd census-analyzer
+   git clone https://github.com/YOUR_USERNAME/census-AI-analyzer.git
+   cd census-AI-analyzer
    
    # Backend
    npm install
@@ -71,9 +71,9 @@ Full-stack web application for analyzing US Hispanic demographic data with AI-po
 ## 🏗️ Architecture
 
 ```
-census-analyzer/
+census-AI-analyzer/
 ├── server.js              # Express API server
-├── census-analyzer.js     # Core data processing logic
+├── census-AI-analyzer.js     # Core data processing logic
 ├── package.json           # Backend dependencies
 ├── frontend/              # React dashboard
 │   ├── src/

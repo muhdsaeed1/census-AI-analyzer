@@ -11,7 +11,8 @@ import {
   ArcElement,
 } from 'chart.js';
 import { Bar, Pie } from 'react-chartjs-2';
-import { RefreshCw, Download, BarChart3, PieChart, FileText, AlertCircle, CheckCircle } from 'lucide-react';
+import { RefreshCw, Download, BarChart3, PieChart, FileText, AlertCircle, CheckCircle, QrCode } from 'lucide-react';
+import QRCodeGenerator from './components/QRCodeGenerator';
 import './App.css';
 
 // Register Chart.js components
@@ -232,7 +233,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-4">
-              <h1 className="text-2xl font-bold text-gray-900">Census Analytics Dashboard</h1>
+              <h1 className="text-2xl font-bold text-gray-900">census-AI-analyzer</h1>
               {serverStatus && (
                 <div className="flex items-center space-x-1">
                   {serverStatus.status === 'healthy' ? (
@@ -283,6 +284,7 @@ function App() {
               { key: 'charts', label: 'Charts', icon: PieChart },
               { key: 'data', label: 'Data Table', icon: FileText },
               { key: 'analysis', label: 'AI Analysis', icon: FileText },
+              { key: 'qr', label: 'QR Generator', icon: QrCode },
             ].map(({ key, label, icon: Icon }) => (
               <button
                 key={key}
@@ -520,6 +522,10 @@ function App() {
               </div>
             </div>
           </div>
+        )}
+
+        {activeView === 'qr' && (
+          <QRCodeGenerator />
         )}
       </main>
     </div>

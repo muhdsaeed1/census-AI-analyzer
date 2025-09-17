@@ -1,5 +1,5 @@
 ![census ai](https://github.com/user-attachments/assets/539fcf05-3404-44be-abb9-8db58122e3f3)
-# Census Analytics Dashboard - Backend API
+# census-AI-analyzer - Backend API
 
 US Hispanic Census Data Analytics API with AI-powered insights using Claude AI.
 
@@ -43,6 +43,38 @@ export ANTHROPIC_API_KEY=your_key_here
 npm run dev
 ```
 
+## How to Run the Application
+
+This project consists of two parts: a backend API and a frontend dashboard.
+
+### Backend
+
+1.  Navigate to the `census-AI-analyzer` directory.
+2.  Install the dependencies: `npm install`
+3.  Set the environment variables as described in the "Environment Variables" section.
+4.  Start the development server: `npm run dev`
+5.  The API will be running at `http://localhost:3000`.
+
+### Frontend
+
+1.  Navigate to the `frontend` directory.
+2.  Install the dependencies: `npm install`
+3.  Start the development server: `npm run dev`
+4.  The frontend will be running at `http://localhost:5173`.
+
+## How to Test the Application
+
+This project does not have any automated tests yet. However, you can manually test the application by running it locally and interacting with the API and the frontend.
+
+## How to Use QR Codes
+
+This application includes a QR code generator.
+
+1.  Run the application and navigate to the "QR Generator" tab in the frontend.
+2.  Enter any text or URL in the input field.
+3.  Click the "Generate" button.
+4.  The QR code will be displayed on the screen.
+
 ## Deployment
 
 ### Railway Deployment
@@ -67,6 +99,34 @@ NODE_ENV=production npm start
 - **Security**: Helmet, CORS
 - **Logging**: Morgan
 - **Export**: XLSX, CSV Writer
+
+## AI-Assisted Development
+
+As a large language model, I can assist in the development of this project in several ways. Here's how I can leverage different sources of information to improve the development workflow:
+
+### API Specs
+
+The API specification, which can be found in the `/api/docs` endpoint and in the `server.js` file, is a valuable source of information. I can use it to:
+
+*   **Generate client-side code:** I can automatically generate TypeScript or JavaScript code for the frontend to interact with the API, including request and response types.
+*   **Create API documentation:** I can generate or update the API documentation in various formats (e.g., OpenAPI, Swagger) based on the API specs.
+*   **Generate API tests:** I can generate tests for the API endpoints to ensure they are working as expected.
+
+### File Trees
+
+The file tree of the project provides a high-level overview of the project structure. I can use it to:
+
+*   **Understand the project structure:** I can quickly understand the project's architecture and how the different parts are organized.
+*   **Identify relevant files:** When I need to make changes to the code, I can use the file tree to quickly identify the relevant files.
+*   **Suggest refactoring:** I can analyze the file tree and suggest improvements to the project structure.
+
+### Diffs
+
+Diffs, which show the changes between two versions of a file, are a great way to understand the evolution of the code. I can use them to:
+
+*   **Review code changes:** I can review code changes and provide feedback on the implementation.
+*   **Understand the context of a change:** I can use the diff to understand why a change was made and what the author's intention was.
+*   **Identify potential issues:** I can analyze the diff and identify potential issues, such as bugs or performance regressions.
 
 ## License
 

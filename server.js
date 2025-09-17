@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
-const { main, formatForDisplay } = require('./census-analyzer');
+const { main, formatForDisplay } = require('./census-AI-analyzer');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -240,6 +240,34 @@ app.get('/api/docs', (req, res) => {
   };
   
   res.json(docs);
+});
+
+// QR Code generator
+app.get('/api/qr', async (req, res) => {
+  const { data } = req.query;
+
+  if (!data) {
+    return res.status(400).json({
+      success: false,
+      error: 'Missing data parameter',
+    });
+  }
+
+  try {
+    const response = await axios.get(`https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(data)}`, {
+      responseType: 'stream',
+    });
+
+    res.setHeader('Content-Type', 'image/png');
+    response.data.pipe(res);
+  } catch (error) {
+    console.error('Error fetching QR code:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to fetch QR code',
+      message: error.message,
+    });
+  }
 });
 
 // 404 handler

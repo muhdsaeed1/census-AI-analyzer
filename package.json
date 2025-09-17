@@ -1,12 +1,12 @@
 {
-  "name": "census-analyzer-api",
+  "name": "census-AI-analyzer-api",
   "version": "1.0.0",
-  "description": "US Hispanic Census Data Analytics API with AI-powered insights",
+  "description": "US Hispanic census-AI-analyzer with AI-powered insights",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "script": "node census-analyzer.js",
+    "script": "node census-AI-analyzer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["census", "demographics", "hispanic", "api", "analytics", "ai"],
@@ -21,6 +21,7 @@
     "express": "^5.1.0",
     "helmet": "^8.1.0",
     "morgan": "^1.10.1",
+    "qrcode": "^1.5.3",
     "xlsx": "^0.18.5"
   }
 }
