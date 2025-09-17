@@ -1,3 +1,4 @@
+![census ai](https://github.com/user-attachments/assets/539fcf05-3404-44be-abb9-8db58122e3f3)
 # Census Analytics Dashboard - Backend API
 
 US Hispanic Census Data Analytics API with AI-powered insights using Claude AI.
