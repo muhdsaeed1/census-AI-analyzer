@@ -1,3 +1,4 @@
+![census ai](https://github.com/user-attachments/assets/19e36b36-82a8-4c85-8cdd-9dbf71f3a38e)
 # census-AI-analyzer
 
 This project is a backend API that analyzes US Hispanic census data and provides AI-powered insights.
