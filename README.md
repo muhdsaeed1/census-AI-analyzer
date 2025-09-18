@@ -51,7 +51,7 @@ CENSUS_API_KEY=your_census_api_key
 PORT=3000
 ```
 
-<<<<<<< HEAD
+
 ### Running the Application
 
 You can run the application in two ways:
