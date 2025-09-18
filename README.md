@@ -52,7 +52,6 @@ CENSUS_API_KEY=your_census_api_key
 PORT=3000
 ```
 
-
 ### Running the Application
 
 You can run the application in two ways:
@@ -84,7 +83,33 @@ This project leverages AI to generate strategic insights from census data. Here'
         *   Digital shopping behavior.
         *   Long-term brand strategy.
 *   **Output**: The AI-generated analysis is then returned as part of the API response and included as a separate sheet in the exported Excel file.
-=======
+
+## AI-Assisted Development
+
+### AI Editor Interactions
+
+Below are real screenshots showing AI (Copilot/Claude) interactions during the development of this project:
+
+![AI Suggestion Autocomplete](https://github.com/muhdsaeed1/census-AI-analyzer/assets/ai-suggestion-autocomplete.png)
+*Copilot suggesting code completions based on comments and context.*
+
+![AI Chat Code Explanation](https://github.com/muhdsaeed1/census-AI-analyzer/assets/ai-chat-explanation.png)
+*Claude AI chat explaining function logic directly in the editor.*
+
+---
+
+### Demo Video
+
+Watch a short demo of the AI-assisted build process (hosted on GitHub, not YouTube):
+
+[![Demo Video](https://github.com/muhdsaeed1/census-AI-analyzer/assets/demo-thumbnail.png)](https://github.com/muhdsaeed1/census-AI-analyzer/assets/demo-video.mp4)
+
+Or [download/view the demo video directly (MP4)](https://github.com/muhdsaeed1/census-AI-analyzer/assets/demo-video.mp4)
+
+---
+
+*Screenshots and videos are located in the `/assets` directory of this repository.*
+
 ## Tech Stack
 
 - **Runtime**: Node.js 18+
@@ -96,21 +121,17 @@ This project leverages AI to generate strategic insights from census data. Here'
 - **Export**: XLSX, CSV Writer
 
 
-
 ## Development Methodology
 
-This project follows an **Agile development methodology**, specifically incorporating the **ADIE (Analysis, Design, Implementation, Evaluation) model**. This approach is particularly effective for this project for the following reasons:
+This project follows an **Agile development methodology**, specifically incorporating the **ADIE (Analysis, Design, Implementation, Evaluation) model**. This approach is particularly effective for projects requiring flexibility and iterative improvement.
 
-*   **Flexibility and Iteration:** The ADIE model is a cyclical process, which allows for continuous improvement and adaptation. This is ideal for a project like this, where new features and requirements may arise as the project evolves.
-*   **Rapid Prototyping:** The ADIE model encourages rapid prototyping and feedback. We can quickly move from an idea to a working implementation, and then evaluate it to see if it meets the project's goals.
-*   **Focus on User Feedback:** The evaluation phase of the ADIE model is crucial for gathering user feedback. This feedback can then be used to inform the next cycle of development, ensuring that the project is always moving in the right direction.
+*   **Flexibility and Iteration:** The ADIE model is a cyclical process, which allows for continuous improvement and adaptation. This is ideal for a project like this, where new features and requirements may emerge as the project evolves.
+*   **Rapid Prototyping:** The ADIE model encourages rapid prototyping and feedback. We can quickly move from an idea to a working implementation, and then evaluate it to see if it meets the project’s needs.
+*   **Focus on User Feedback:** The evaluation phase of the ADIE model is crucial for gathering user feedback. This feedback can then be used to inform the next cycle of development, ensuring that the project remains aligned with user needs.
 
 Here's how the ADIE model is applied to this project:
 
-1.  **Analysis:** In this phase, we analyze the project's requirements and define the goals for the current development cycle. This could involve analyzing user feedback, identifying new feature ideas, or defining the scope of a new API endpoint.
-2.  **Design:** In this phase, we design the new feature or improvement. This could involve creating wireframes for a new UI component, designing the schema for a new database table, or defining the architecture of a new microservice.
-3.  **Implementation:** In this phase, we implement the new feature or improvement. This involves writing the code, creating the necessary infrastructure, and deploying the changes to a staging environment.
-4.  **Evaluation:** In this phase, we evaluate the new feature or improvement to see if it meets the project's goals. This could involve user testing, performance testing, or A/B testing. The feedback from this phase is then used to inform the next development cycle.
-
-
-
+1.  **Analysis:** In this phase, we analyze the project's requirements and define the goals for the current development cycle. This could involve analyzing user feedback, identifying new feature requests, or reviewing analytics data.
+2.  **Design:** In this phase, we design the new feature or improvement. This could involve creating wireframes for a new UI component, designing the schema for a new database table, or defining the architecture for a new API endpoint.
+3.  **Implementation:** In this phase, we implement the new feature or improvement. This involves writing the code, creating the necessary infrastructure, and deploying the changes to a staging environment for testing.
+4.  **Evaluation:** In this phase, we evaluate the new feature or improvement to see if it meets the project's goals. This could involve user testing, performance testing, or A/B testing. The feedback gathered during this phase is then used to inform the next cycle of development.
